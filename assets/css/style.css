@@ -1,0 +1,23 @@
+.container{
+    background-color: black;
+    width: 20;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 486px;
+    background-color: gray;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: darkgoldenrod;
+}
+body{
+    background-color: blanchedalmond;
+}
+h4{
+    color: aquamarine;
+}
