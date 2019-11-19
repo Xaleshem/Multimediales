@@ -1,23 +1,295 @@
-.container{
-    background-color: black;
-    width: 20;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
+            /** ESTO ES DE LA CARTELERA **/
+
+
+h1{ /** TITULAR **/
+    color: turquoise;
+    display: block;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.Panfleto{ /** ESPACIO DE TRABAJO **/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 200px;
+    background-color: rgb(32, 30, 30);
+    color: violet;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    margin: -1px;
+}
+
+.RB_1{
+    grid-row: 2;
+    grid-column: 1;
+    height: 400px;
+    width: 300px;
+    background-color: cadetblue;
+    border-radius: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../img/John_Wick_3_Portada.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.boton_1{
+    grid-row: 3;
+    grid-column: 1;
+    text-decoration: none;
+    color: white;
+    background-color: #bd1010;
+    border-radius: 32px;
+    font-size: 30px;
+    line-height: 40px;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+.RB_2{
+    grid-row: 2;
+    grid-column: 2;
+    height: 400px;
+    width: 300px;
+    background-color: cadetblue;
+    border-radius: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../img/Limitless_Portada.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.boton_2{
+    grid-row: 3;
+    grid-column: 2;
+    text-decoration: none;
+    color: white;
+    border-radius: 32px;
+    font-size: 3px;
+    line-height: 4px;
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+
+            /** John Wick 3 **/
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    background-color: white;
+    color: rgb(146, 27, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin: -1% auto auto auto;
+}
+
 .header{
     width: 100%;
+    grid-column: 1/4;
     height: 486px;
-    background-color: gray;
+    background-image: url('../img/John_Wick_3_Fondo.webp');
+    background-position: center;
+    background-size: cover;
 }
+
+.header h1{
+    margin-top: 400px;
+    margin-left: 30px;
+    float: left;
+    color: white;
+    background: black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    font-style: oblique;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .menu{
-    width: 100%;
-    height: 50px;
-    background-color: darkgoldenrod;
+    overflow: hidden;
+    grid-column: 1/4;
+    background-color: rgb(29, 28, 28);
+    font-size: 30px;
 }
+
+.menu li{
+    grid-column: 1/4;
+    align-items: center;
+    margin-right: 30px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-image: url('../img/botton_blue.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.Home{
+    height: 100px;
+    width: 100px;
+    grid-column: 4/4;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: -6px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+
+.relleno{
+    grid-column: 1/4;
+}
+
+.SinopText p{
+    padding: 0% 10% 0% 10%;
+}
+
+.ReseñText h4{
+    padding: 0% 0% 0% 15%;
+    color: rgb(88, 88, 88);
+    background-color: rgb(231, 231, 231);
+}
+
+.ReseñText p{
+    padding: 0% 20% 0% 18%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    grid-column: 1/4;
+    background-color: black;
+    color: white;
+}
+
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(0, 0, 0);
 }
-h4{
-    color: aquamarine;
+
+h3{
+    color: rgb(50, 82, 70);
+    padding: 0% 0% 0% 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+            /** Limitless **/
+
+
+.container_2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1000px;
+    margin: -1% auto auto auto;
+}
+
+.header_2{
+    width: 100%;
+    grid-column: 1/4;
+    height: 486px;
+    background-image: url('../img/Limitless_Fondo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.header_2 h1{
+    margin-top: 400px;
+    margin-left: 30px;
+    color: white;
+    background: black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    float: left;
+    font-style: oblique;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu_2{
+    overflow: hidden;
+    grid-column: 1/4;
+    background-color: rgb(29, 28, 28);
+    font-size: 30px;
+}
+
+.menu_2 li{
+    grid-column: 1/4;
+    align-items: center;
+    margin-right: 30px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-image: url('../img/botton_blue.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.Home_2{
+    height: 100px;
+    width: 100px;
+    grid-column: 4/4;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: -6px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: black;
+    font-size: px;
+    border-radius: 50px;
+}
+
+.relleno_2{
+    grid-column: 1/4;
+}
+
+.SinopText_2 p{
+    padding: 0% 12% 0% 10%;
+    grid-column: 1/4;
+}
+
+.ReseñText_2 h4{
+    padding: 0% 0% 0% 15%;
+    color: rgb(88, 88, 88);
+    background-color: rgb(231, 231, 231);
+}
+
+.ReseñText_2 p{
+    padding: 0% 20% 0% 18%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+h3{
+    color: rgb(50, 82, 70);
+    padding: 0% 0% 0% 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
